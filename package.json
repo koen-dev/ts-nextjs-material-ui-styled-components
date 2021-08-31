@@ -1,0 +1,44 @@
+{
+    "name": "ts-nextjs-material-ui-styled-components",
+    "version": "1.0.0",
+    "description": "TypeScript, NextJS, Material UI &amp; Styled Components Template",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "prepare": "husky install"
+    },
+    "lint-staged": {
+        "**/*": "prettier --write --ignore-unknown"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/koen-dev/ts-nextjs-material-ui-styled-components.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/koen-dev/ts-nextjs-material-ui-styled-components/issues"
+    },
+    "homepage": "https://github.com/koen-dev/ts-nextjs-material-ui-styled-components#readme",
+    "dependencies": {
+        "@material-ui/core": "^5.0.0-beta.5",
+        "@material-ui/styled-engine": "npm:@material-ui/styled-engine-sc@next",
+        "next": "^11.1.2",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "styled-components": "^5.3.1"
+    },
+    "devDependencies": {
+        "@types/react": "^17.0.19",
+        "husky": "^7.0.2",
+        "lint-staged": "^11.1.2",
+        "prettier": "^2.3.2",
+        "typescript": "^4.4.2"
+    },
+    "resolutions": {
+        "@material-ui/styled-engine": "npm:@material-ui/styled-engine-sc@next"
+    }
+}
